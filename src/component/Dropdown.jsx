@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FiChevronDown } from "react-icons/fi";
 function Dropdown({ selected, setSelected }) {
   const [isActive, setIsActive] = useState(false);
+
   const options = ["Yes", "Probably not"];
 
   return (
@@ -18,10 +19,7 @@ function Dropdown({ selected, setSelected }) {
       </div>
 
       {isActive && (
-        <div
-          className="dropdown-content"
-          onMouseLeave={(e) => setIsActive(!setIsActive)}
-        >
+        <div className="dropdown-content">
           {options.map((option) => (
             <div
               onClick={(e) => {
