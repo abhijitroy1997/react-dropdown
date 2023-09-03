@@ -39,5 +39,6 @@
   transition-duration: 0.02s;
 }
 .dropdown .dropdown-content .dropdown-item:hover {
-  background: #f4f4f4;
+  background: #bebaba98;
+  border-radius: 8px;
 }
