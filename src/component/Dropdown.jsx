@@ -19,7 +19,10 @@ function Dropdown({ selected, setSelected }) {
       </div>
 
       {isActive && (
-        <div className="dropdown-content">
+        <div
+          className="dropdown-content"
+          onMouseLeave={(e) => setIsActive(!setIsActive)}
+        >
           {options.map((option) => (
             <div
               onClick={(e) => {
