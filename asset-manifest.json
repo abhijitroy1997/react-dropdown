@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-dropdown/static/css/main.c3913513.css",
+    "main.js": "/react-dropdown/static/js/main.ef1bc6a8.js",
+    "index.html": "/react-dropdown/index.html",
+    "main.c3913513.css.map": "/react-dropdown/static/css/main.c3913513.css.map",
+    "main.ef1bc6a8.js.map": "/react-dropdown/static/js/main.ef1bc6a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3913513.css",
+    "static/js/main.ef1bc6a8.js"
+  ]
+}
