@@ -5,4 +5,4 @@ https://abhijitroy1997.github.io/react-dropdown
 
 Code Structure:
 
-![code-structure](image.png)
+![Alt text](image.png)
