@@ -5,7 +5,7 @@ function App() {
   const [selected, setSelected] = useState("Select");
   return (
     <div className="App">
-      {/* Custom Dropdown Menu Suing React*/}
+      {/* Custom Dropdown Menu using React*/}
       <Home />
       <Dropdown selected={selected} setSelected={setSelected} />
     </div>
